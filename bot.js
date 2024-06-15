@@ -4,7 +4,7 @@ require("dotenv").config();
 
 const token = process.env.TOKEN;
 const bot = new TelegramBot(token);
-// bot.setWebHook(`https://your-heroku-app-name.herokuapp.com/bot${token}`);
+bot.setWebHook(`https://lionfish-app-zjbbr.ondigitalocean.app//bot${token}`);
 
 const app = express();
 app.use(express.json());
